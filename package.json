@@ -1,0 +1,18 @@
+{
+  "name": "Demos",
+  "version": "0.0.0",
+  "description": "Demostração da palestra no TDC 2014 sobre testes unitários utilizando AngularJS e Karma",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Henrique Ramos Limas",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.3.12"
+  },
+  "devDependencies": {
+  	"karma": "^0.12.24",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-jasmine": "^0.1.5"
+  }
+}

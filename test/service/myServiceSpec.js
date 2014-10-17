@@ -28,6 +28,11 @@ describe('PizzasService', function() {
         }]);
     }));
 
+    afterEach(function() {
+        // A cada teste será verificado se não existe nenhum flush do $httpBackend pendente
+        $httpBackend.verifyNoOutstandingRequest();
+    });
+
     describe('getPizzas: ', function() {
         it('deveria startar o array de pizzas', function() {
             // Executando o metodo a ser testado

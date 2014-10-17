@@ -39,6 +39,11 @@ describe('PizzariaController', function() {
         });
     }));
 
+    afterEach(function() {
+        // A cada teste será verificado se não existe nenhum flush do $httpBackend pendente
+        $httpBackend.verifyNoOutstandingRequest();
+    });
+
     it('deveria inicializar o array pizzas no $scope', function() {
         // Executando as requisições pendentes
         $httpBackend.flush();
