@@ -1,0 +1,17 @@
+{
+  "name": "TDC2014 - Testes-unitarios com AngularJS e Karma",
+  "version": "0.0.0",
+  "authors": [
+    "Henrique Ramos Limas <henrique.ramos.limas@gmail.com>"
+  ],
+  "description": "Realize testes unitários utilizando AngularJS e Karma",
+  "license": "MIT",
+  "homepage": "henriquelimas.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
