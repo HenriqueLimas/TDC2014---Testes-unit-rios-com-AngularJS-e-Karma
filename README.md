@@ -35,12 +35,14 @@ Links
 
 **Documentação:**
 
-> [AngularJS](http://angularjs.org/) 
-> [Karma-runner](http://karma-runner.github.io/)
-> [Jasmine](http://jasmine.github.io)
+ - [AngularJS](http://angularjs.org/) 
+ - [Karma-runner](http://karma-runner.github.io/)
+ - [Jasmine](http://jasmine.github.io)
+
 
 **Slides da apresentação:**
-[Slideshare](http://www.slideshare.net/HenriqueLimas/presentacao-testes-unitarios)
+
+ - [Slideshare ](http://www.slideshare.net/HenriqueLimas/presentacao-testes-unitarios)
 
 **Video da apresentação:**
 Em breve.
